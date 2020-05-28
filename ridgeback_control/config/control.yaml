@@ -48,14 +48,14 @@ ridgeback_velocity_controller:
 ekf_localization:
   frequency: 50
   two_d_mode: true
-  odom0: /ridgeback_velocity_controller/odom
+  odom0: /ridgeback/ridgeback_velocity_controller/odom
   odom0_config: [false, false, false,
                  false, false, false,
                  true, true, false,
                  false, false, true,
                  false, false, false]
   odom0_differential: false
-  imu0: /imu/data
+  imu0: /ridgeback/imu/data
   imu0_config: [false, false, false,
                 false, false, false,
                 false, false, false,
